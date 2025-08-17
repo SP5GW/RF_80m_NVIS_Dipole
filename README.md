@@ -16,7 +16,7 @@ To build the anntenna I used 4mm2 insulated wire (Lgy4). Rough estimation of dim
 
 To be on the safe side I used 2 x 39m wires, those dimentions produced SWR minimum slightly below 3.5MHz. Duirng antenna tunning both radiating elements were reduced (length of both radiating elements was reduced by the same amount until SWR lowest point moved to desired frequency - in my case I have chosen 3.7MHz to optimize the setup for phone communication).
 
-$L_antenna_total_length = K \cdot \frac{c}{2f}$
+$L_{\text{antenna total length}} = K \cdot \frac{c}{2f}$
 
 
 
