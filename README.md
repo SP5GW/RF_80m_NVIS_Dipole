@@ -1,7 +1,7 @@
 # Half-Wavelength Dipole for 80m in NVIS Configuration
 
 <p align="center">
-<img src="./img/main_picture.jpg" width="400" height="500"/>
+<img src="./img/main_picture.jpg" width="500" height="600"/>
 </p>
 
 ## Introduction
@@ -40,6 +40,11 @@ Photos of the antenna mounting can be seen below:
 
 Tunning of the antenna was very simple. It was enough to reduce antenna length by about a meter at each end to achieve SWR minimum of 1.8 at 3.7Mhz. At both ends of the band SWR did not exceed 3, which meant that in practice no antenna tunner was required to operate the setup.
 
+<p align="center">
+<img src="./img/swr_f0.jpg" width="400" height="500"/>
+<img src="./img/swr_ll.jpg" width="400" height="500"/>
+<img src="./img/swr_rr.jpg" width="400" height="500"/>
+</p>
 
 ## Coverage Performance
 
