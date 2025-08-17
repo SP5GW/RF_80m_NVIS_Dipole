@@ -8,7 +8,9 @@
 This article summarizes my experiences with building 80m half-wave dipol in NVIS setup.
 The main goal of this project was to evaluate how practical is to install dipol antenna as low as 1m above the ground. 
 I wanted to test in particular:
+
     - quality of regional coverage (my goal was to test connectivity in the range of 0 to 500km)
+
     - ease of tunning such anntenna setup
 
 ## Design
