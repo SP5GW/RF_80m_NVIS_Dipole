@@ -35,6 +35,11 @@ It shall be noted that electrical dimensions of the half-wave dipol antenna are 
 
 Photos of the antenna mounting can be seen below:
 
+<p align="center">
+<img src="./img/feed_point.jpg" width="400" height="500"/>
+<img src="./img/end1.jpg" width="400" height="500"/>
+<img src="./img/end2.jpg" width="400" height="500"/>
+</p>
 
 ## Tunning
 
@@ -42,6 +47,7 @@ Tunning of the antenna was very simple. It was enough to reduce antenna length b
 
 <p align="center">
 <img src="./img/swr_f0.jpg" width="400" height="500"/>
+<img src="./img/swrf0_max.jpg" width="400" height="500"/>
 <img src="./img/swr_ll.jpg" width="400" height="500"/>
 <img src="./img/swr_rr.jpg" width="400" height="500"/>
 </p>
