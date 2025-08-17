@@ -9,9 +9,9 @@ This article summarizes my experiences with building 80m half-wave dipol in NVIS
 The main goal of this project was to evaluate how practical is to install dipol antenna as low as 1m above the ground. 
 I wanted to test in particular:
 
-    - quality of regional coverage (my goal was to test connectivity in the range of 0 to 500km)
+- quality of regional coverage (my goal was to test connectivity in the range of 0 to 500km)
 
-    - ease of tunning such anntenna setup
+- ease of tunning such anntenna setup
 
 ## Design
 To build the anntenna I used 4mm2 insulated wire (Lgy4). Rough estimation of dimensions can be found using below formula:
@@ -19,8 +19,11 @@ To build the anntenna I used 4mm2 insulated wire (Lgy4). Rough estimation of dim
 $L_{\text{antenna total length}} = K \cdot \frac{c}{2f}$
 
 where:
+
 K- is shortening factor (K=1 for free space, K=0.9-0.95 for insulated wire antenna setup near the ground)
+
 c - speed of light in free space in m/s (299 792 458 m/s)
+
 f - frequency in Hertz
 
 Assuming K = 0.95:
@@ -62,7 +65,7 @@ More tests will be carried out to confirm antenna performance especially when it
 
 # Summary
 
-In summary, I was positively suprised that so low mounted antenna can deliver solid regional coverage. Reports received were always above 57 (I was transmitting with 30-100W power using FT-710 set in LSB mode).
+In summary, I was positively suprised that so low mounted antenna can deliver solid regional coverage. Reports received were always above 57 (I was transmitting with 30-100W power using FT-710 in LSB mode).
 
 ## References
 [1] Understanding NVIS - Rhode-Schwarz
