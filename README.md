@@ -14,13 +14,29 @@ I wanted to test in particular:
 ## Design
 To build the anntenna I used 4mm2 insulated wire (Lgy4). Rough estimation of dimensions can be found using below formula:
 
-To be on the safe side I used 2 x 39m wires, those dimentions produced SWR minimum slightly below 3.5MHz. Duirng antenna tunning both radiating elements were reduced (length of both radiating elements was reduced by the same amount until SWR lowest point moved to desired frequency - in my case I have chosen 3.7MHz to optimize the setup for phone communication).
+To be on the safe side I used 2 x 19.5m wires, those dimentions produced SWR minimum slightly below 3.5MHz. Duirng antenna tunning both radiating elements were reduced (length of both radiating elements was reduced by the same amount until SWR lowest point moved to desired frequency - in my case I have chosen 3.7MHz to optimize the setup for phone communication).
 
 $L_{\text{antenna total length}} = K \cdot \frac{c}{2f}$
+
+where:
+K- is shortening factor (K=1 for free space, K=0.9-0.95 for insulated wire antenna setup near the ground)
+c - speed of light in free space in m/s (299 792 458 m/s)
+f - frequency in Hertz
+
+Assuming K = 0.95:
+
+$L_{\text{antenna total length}} \approx 39m$
+
+so each radiating element length will be:
+
+$l = \frac{L_{\text{antenna total length}}}{2} = 19,5m$
+
 
 
 
 ## References
 [1] Understanding NVIS - Rhode-Schwarz
+
 [2] The NVIS— A Low Antenna for Regional  Communications - Albert L. Pion, KK7XO, QST June 2002
+
 [3] A Look at NVIS Techniques - Ed Farmer, AA6ZM - QST January 1995
