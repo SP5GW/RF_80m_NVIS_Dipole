@@ -1,7 +1,7 @@
 # Half-Wavelength Dipole for 80m in NVIS Configuration
 
 <p align="center">
-<img src="./img/internals_complete.jpg" width="400" height="500"/>
+<img src="./img/main_picture.jpg" width="400" height="500"/>
 </p>
 
 ## Introduction
@@ -38,7 +38,7 @@ Photos of the antenna mounting can be seen below:
 
 ## Tunning
 
-Tunning of the antenna was very simple. It was enough to reduce antenna length by about a meter at each end to achieve SWR minimum of 1.8 at 3.7Mhz. At both ends of the band (SWR did not exceed 3).
+Tunning of the antenna was very simple. It was enough to reduce antenna length by about a meter at each end to achieve SWR minimum of 1.8 at 3.7Mhz. At both ends of the band SWR did not exceed 3, which meant that in practice no antenna tunner was required to operate the setup.
 
 
 ## Coverage Performance
@@ -46,6 +46,10 @@ Tunning of the antenna was very simple. It was enough to reduce antenna length b
 It was possible to establish QSOs with entire Poland starting with stations located just a few kilometers away. The longest QSO was made with station from Bulgaria.
 
 More tests will be carried out to confirm antenna performance especially when it comes to close proximity communication.
+
+# Summary
+
+In summary, I was positively suprised that so low mounted antenna can deliver solid regional coverage. Reports received were always above 57 (I was transmitting with 30-100W power using FT-710 set in LSB mode).
 
 ## References
 [1] Understanding NVIS - Rhode-Schwarz
